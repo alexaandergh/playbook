@@ -1,18 +1,18 @@
-const Pokemon = require('./pokemon')
+const PKM = require('./pokemon')
 
-const pikachu = new Pokemon("pikachu")
-const bulbasaur = new Pokemon("bulbasaur")
-const squirtle = new Pokemon("squirtle")
-const charmander = new Pokemon("charmander")
+const pikachu = new PKM ("pikachu")
+const bulbasaur = new PKM ("bulbasaur")
+const squirtle = new PKM ("squirtle")
+const charmander = new PKM ("charmander")
 
-pikachu.sayHello()
+pikachu.sayHi()
 pikachu.sayMessage("Heey!")
 
-bulbasaur.sayHello()
+bulbasaur.sayHi()
 bulbasaur.sayMessage("Heey!")
 
-charmander.sayHello()
+charmander.sayHi()
 charmander.sayMessage("Heey!")
 
-squirtle.sayHello()
+squirtle.sayHi()
 squirtle.sayMessage("Heey!")
